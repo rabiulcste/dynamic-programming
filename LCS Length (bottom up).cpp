@@ -32,7 +32,7 @@ int LCSLength(int m , int n){
 
 int main()
 {
-    int m, n, kases = 0;
+    int m, n;
     while(gets(a))
     {
         // loop breaks when input is '#'
@@ -41,7 +41,7 @@ int main()
         m = strlen(a);
         n = strlen(b);
         LCSLength(m, n);
-        printf("Case #%d: you can visit at most %d cities.\n", ++kases, dp[m][n]);
+        printf("%d\n", dp[m][n]);
     }
     return 0;
 }
