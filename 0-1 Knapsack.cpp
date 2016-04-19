@@ -26,6 +26,7 @@ int func(int i, int w)
      dp[i][w]=max(profit1, profit2); //বেশী লাভ যেটায় হয় সেটাই আমরা নিবো
      return dp[i][w];
 }
+
 int main()
 {
     memset(dp, -1, sizeof(dp));
@@ -36,4 +37,3 @@ int main()
 
     printf("%d\n", func(1, 0));
 }
-
