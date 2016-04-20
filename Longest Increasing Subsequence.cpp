@@ -8,6 +8,7 @@
 int n = 7;
 int value[]={-100000, 5, 0, 9, 2, 7, 3, 4}; // declare any array
 int dp[mx], dir[mx];
+
 int longest(int u)
 {
     if(dp[u]!=-1) return dp[u];
