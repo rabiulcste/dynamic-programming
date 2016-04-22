@@ -1,6 +1,6 @@
 #include <bits//stdc++.h>
-
 using namespace std;
+
 int coin[] = {1, 5, 10, 25, 50}; //initialize array
 int make;
 int dp[6][100];
