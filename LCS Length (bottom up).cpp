@@ -1,6 +1,6 @@
 #include <bits//stdc++.h>
-
 using namespace std;
+
 #define MX 500
 int dp[MX][MX];
 char a[MX], b[MX];
