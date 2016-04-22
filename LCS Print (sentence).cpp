@@ -10,6 +10,7 @@ int dp[MX][MX], s[MX][MX];
 vector<string> v1, v2;
 int m, n;
 int flag;
+
 void lcsprint(int i, int j)
 {
     if(i == 0 || j == 0)return;
