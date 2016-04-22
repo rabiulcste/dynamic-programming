@@ -1,5 +1,4 @@
 #include <bits//stdc++.h>
-
 using namespace std;
 
 int n; // the number of items in the sequence
