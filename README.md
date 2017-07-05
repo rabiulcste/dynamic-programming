@@ -1,6 +1,8 @@
 # Dynamic Programming Problems and Algorithms
 ### What you may learn here?
-This repository is full of classical graph theory algorithms and problems solution specially focused on competitive programming. Most of the solutions
+This repository is full of classical graph theory algorithms and problems solution specially focused on competitive programming. Most of the solutions can be used as a template for further variance solution of specific category. Listed algorithms are very naive and common. For detailed explation follow [Graph Algorithms](http://dimik.pub/book/104/graph-algorithm-by-shafaet-ashraf) book by Shafayet Ashraf.
+
+*Language: C++*
 
 ### List of solutions
 - 0-1 Knapsack (Bottom Up)
@@ -37,3 +39,4 @@ This repository is full of classical graph theory algorithms and problems soluti
 - Sum of subset (2D) / Kadane's Algo	
 - Weighted Job Scheduling
 - nCr
+
